@@ -1,6 +1,11 @@
 @import './partials/fonts';
+@import './partials/vars';
+
+@import './partials/utilities/colours';
+@import './partials/utilities/fonts';
+
 
 * {
-    font-family: 'Circular Std', sans-serif;
+    font-family: $font-circular;
     font-weight: 700;
 }

@@ -22,6 +22,86 @@
   font-weight: 400;
   src: local("Inter"), url(../../fonts/Inter-Regular.ttf) format("ttf");
 }
+.text-pink {
+  color: #F85E9F;
+}
+
+.text-orange {
+  color: #FF5722;
+}
+
+.text-yellow {
+  color: #FACD49;
+}
+
+.text-purple {
+  color: #5D50C6;
+}
+
+.text-gray {
+  color: #EEEEEE;
+}
+
+.text-blue {
+  color: #222831;
+}
+
+.text-blue-dark {
+  color: #191825;
+}
+
+.text-blue-dark-50 {
+  color: rgba(25, 24, 37, 0.5);
+}
+
+.text-blue-dark-75 {
+  color: rgba(25, 24, 37, 0.75);
+}
+
+.bg-pink {
+  background-color: #F85E9F;
+}
+
+.bg-orange {
+  background-color: #FF5722;
+}
+
+.bg-yellow {
+  background-color: #FACD49;
+}
+
+.bg-purple {
+  background-color: #5D50C6;
+}
+
+.bg-gray {
+  background-color: #EEEEEE;
+}
+
+.bg-blue {
+  background-color: #222831;
+}
+
+.bg-blue-dark {
+  background-color: #191825;
+}
+
+.bg-blue-dark-50 {
+  background-color: rgba(25, 24, 37, 0.5);
+}
+
+.bg-blue-dark-75 {
+  background-color: rgba(25, 24, 37, 0.75);
+}
+
+.font-circular {
+  font-family: "Circular Std", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
 * {
   font-family: "Circular Std", sans-serif;
   font-weight: 700;
