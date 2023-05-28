@@ -58,6 +58,10 @@
   color: rgba(25, 24, 37, 0.75);
 }
 
+.text-yellow-10 {
+  color: rgba(250, 205, 73, 0.078);
+}
+
 .bg-pink {
   background-color: #F85E9F;
 }
@@ -92,6 +96,10 @@
 
 .bg-blue-dark-75 {
   background-color: rgba(25, 24, 37, 0.75);
+}
+
+.bg-yellow-10 {
+  background-color: rgba(250, 205, 73, 0.078);
 }
 
 .font-circular {
