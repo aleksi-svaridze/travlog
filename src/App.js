@@ -1,9 +1,10 @@
+import Navbar from "./components/Navbar";
 
 
 const App = () => {
   return (
     <div className="App">
-     <p className="text-pink font-inter">hello</p>
+      <Navbar />
     </div>
   );
 }
