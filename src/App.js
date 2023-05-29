@@ -1,6 +1,6 @@
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
      <p className="text-pink font-inter">hello</p>
