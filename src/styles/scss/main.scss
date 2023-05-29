@@ -2,10 +2,14 @@
 @import './partials/basis/vars';
 
 @import './partials/utilities/colours';
-@import './partials/utilities/fonts';
+@import './partials/utilities/text';
+@import './partials/utilities/spacing';
+@import './partials/utilities/sizing';
+
+@import './partials/components/btn';
 
 
 * {
-    font-family: $font-circular;
-    font-weight: 700;
+    font-family: $font-circular !important;
+    font-weight: 700 !important;
 }
