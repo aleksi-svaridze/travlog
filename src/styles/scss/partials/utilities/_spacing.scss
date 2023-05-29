@@ -3,5 +3,11 @@
     padding-bottom: 2rem;
 }
 .pt-64 {
-    padding-top: 64px;
+    padding-top: 32px;
+}
+
+@media screen and (min-width: 992px){
+    .pt-64 {
+        padding-top: 64px;
+    }
 }
