@@ -123,6 +123,10 @@
   padding-bottom: 2rem;
 }
 
+.pt-64 {
+  padding-top: 64px;
+}
+
 .w-40 {
   width: 40px;
 }
