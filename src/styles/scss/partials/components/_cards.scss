@@ -1,4 +1,145 @@
 .services-card {
-    width: 350px !important;
-    height: 443px !important;
+    display: none;
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: flex;
+            width: 320px;
+            height: 360px;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        & {
+            width: 320px;
+            height: 360px;
+        }
+    }
+    @media screen and (min-width: 1400px) {
+        & {
+            width: 350px;
+            height: 443px;
+        }
+    }
 }
+
+.card-container {
+    display: none;
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: block;
+            width: 700px;
+            height: 500px;
+            position: absolute;
+            right: -110px;
+            top: 0;
+            z-index: 1000;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        & {
+            width: 860px;
+            height: 500px;
+            right: -110px;
+        }
+    }
+    @media screen and (min-width: 1400px) {
+        & {
+            width: 925px;
+            height: 600px;
+        }
+    }
+}
+.card-1 {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    // right: 742px;
+}
+.card-2 {
+    position: absolute;
+    right: 196px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+.card-3 {
+    display: none;
+    position: absolute;
+    right: -175px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: block;
+            right: -150px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        & {
+            right: -150px;
+        }
+    }
+    @media screen and (min-width: 1400px) {
+        & {
+            right: -175px;
+        }
+    }
+}
+
+.window {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    overflow: hidden;
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: block;
+            width: 860px;
+            height: 500px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        & {
+            width: 860px;
+            height: 500px;
+        }
+    }
+    @media screen and (min-width: 1400px) {
+        & {
+            width: 925px;
+            height: 600px;
+        }
+    }
+}
+
+// .app {
+//     max-width: 992px;
+//     margin: 0 auto; 
+//     background-color: red;
+
+//     @media screen and (min-width: 1200px) {
+//         & {
+//             max-width: 1170px;
+//             background-color: green;
+//         }
+//     }
+//     @media screen and (min-width: 1400px) {
+//         & {
+//             max-width: 1370px;
+//             background-color: purple;
+//         }
+//     }
+// }
