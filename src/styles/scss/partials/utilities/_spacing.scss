@@ -2,8 +2,16 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.pt-64 {
+.py-rs-64 {
     padding-top: 32px;
+    padding-bottom: 32px;
+
+    @media screen and (min-width: 992px) {
+        & {
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+    }
 }
 .my-60 {
     margin-top: 25px;
@@ -11,9 +19,6 @@
 }
 
 @media screen and (min-width: 992px){
-    .pt-64 {
-        padding-top: 64px;
-    }
     .my-60 {
         margin-top: 50px;
         margin-bottom: 50px;

@@ -4,10 +4,10 @@ import PlayBtn from '../images/icons/play_btn.svg';
 
 const Hero = () => {
     return(
-        <div className="container pt-64">
+        <div className="container py-rs-64">
             <div className="row gy-5">
                 <div className="col-12 col-lg-4 order-2 order-lg-1">
-                    <div className='text-center text-lg-start'>
+                    <div className='text-center text-lg-start d-lg-flex flex-lg-column justify-content-lg-center h-100'>
                         <a href="/" className='btn p-0 d-inline-flex rounded-pill btn-shadow fs-14 w-224 h-56 align-items-center justify-content-center column-gap-3 text-pink'>
                             Explore the world 
                             <img src={Case} alt="link Explore the world icon of suitcase" className='w-24' />

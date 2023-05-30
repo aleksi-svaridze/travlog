@@ -146,8 +146,15 @@
   padding-bottom: 2rem;
 }
 
-.pt-64 {
+.py-rs-64 {
   padding-top: 32px;
+  padding-bottom: 32px;
+}
+@media screen and (min-width: 992px) {
+  .py-rs-64 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }
 
 .my-60 {
@@ -156,9 +163,6 @@
 }
 
 @media screen and (min-width: 992px) {
-  .pt-64 {
-    padding-top: 64px;
-  }
   .my-60 {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -172,6 +176,10 @@
 }
 .w-24 {
   width: 24px;
+}
+
+.w-30 {
+  width: 30px;
 }
 
 .w-40 {
@@ -204,6 +212,10 @@
   width: 224px;
 }
 
+.h-32 {
+  height: 32px;
+}
+
 .h-49 {
   height: 49px;
 }
@@ -215,6 +227,14 @@
   .h-rs-49 {
     height: 49px;
   }
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.h-40 {
+  height: 40px;
 }
 
 .h-56 {
