@@ -1,5 +1,6 @@
 import HeroBg from '../images/hero-bg.png';
 import Case from '../images/icons/case.svg';
+import PlayBtn from '../images/icons/play_btn.svg';
 
 const Hero = () => {
     return(
@@ -13,6 +14,14 @@ const Hero = () => {
                         </a>
                         <h1 className='text-black fs-69 my-60'>Travel <span className='text-pink'>top destination</span> ot the world</h1>
                         <p className='mb-0 text-blue-dark-50 fw-normal fs-18 font-inter'>We always make our customer happy by providing as many choices as possible</p>
+
+                        <div className='d-flex flex-column row-gap-4 flex-lg-row align-items-lg-center column-gap-3 mt-5'>
+                            <a href="/" className='btn text-capitalize btn-shadow-light fs-14 h-rs-49 rounded-pill bg-purple p-0 d-flex align-items-center justify-content-center w-141 text-gray'>get started</a>
+                            <a href="/" className='btn border border-gray rounded-pill text-capitalize p-0 justify-content-center fs-14 d-flex align-items-center text-blue column-gap-2 h-rs-56 w-181'>
+                                <img src={PlayBtn} alt="Play video button" className='w-24' />
+                                watch demo
+                            </a>
+                        </div>
                     </div>
                 </div>
 
