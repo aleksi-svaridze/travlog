@@ -4,8 +4,6 @@ import Booking from '../images/companies/booking.svg';
 import Airbnb from '../images/companies/airbnb.svg';
 import Orbitz from '../images/companies/orbitz.svg';
 
-import CompaniesBg from '../images/companies-bg.png';
-
 
 const Companies = () => {
     return(

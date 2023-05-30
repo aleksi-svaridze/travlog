@@ -1,4 +1,4 @@
-import HeroBg from '../images/hero-bg.png';
+import HeroBg from '../images/hero-bg-big.png';
 import Case from '../images/icons/case.svg';
 import PlayBtn from '../images/icons/play_btn.svg';
 

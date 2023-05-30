@@ -14,6 +14,9 @@
 .fs-24 {
     font-size: 24px;
 }
+.fs-44 {
+    font-size: 32px;
+}
 .fs-69 {
     font-size: 40px;
 }
@@ -23,15 +26,26 @@
     .fs-69 {
         font-size: 50px;
     }
+    .fs-44 {
+        font-size: 35px;
+    }
 }
 @media screen and (min-width: 1200px) {
     .fs-69 {
         font-size: 60px;
     }
+    .fs-44 {
+        font-size: 40px;
+    }
+
 }
 
 @media screen and (min-width: 1400px) {
     .fs-69 {
         font-size: 69px;
     }
+    .fs-44 {
+        font-size: 44px;
+    }
+
 }

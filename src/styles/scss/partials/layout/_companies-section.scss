@@ -3,9 +3,16 @@
     &::after {
         content: url(../../images/companies-bg.png);
         position: absolute;
-        right: 0;
+        right: 25%;
         top: 60%;
         transform: translateY(-50%);
         width: 500px;
+        display: none;
+
+        @media screen and (min-width: 992px) {
+            & {
+                display: block;
+            }
+        }
     }
 }
