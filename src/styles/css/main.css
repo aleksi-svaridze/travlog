@@ -107,17 +107,40 @@
 }
 
 .font-inter {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif !important;
 }
 
 .fs-14 {
   font-size: 14px;
 }
 
+.fs-18 {
+  font-size: 18px;
+}
+
 .fs-24 {
   font-size: 24px;
 }
 
+.fs-69 {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 992px) {
+  .fs-69 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fs-69 {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .fs-69 {
+    font-size: 69px;
+  }
+}
 .py-2rem {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -127,11 +150,30 @@
   padding-top: 32px;
 }
 
+.my-60 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 @media screen and (min-width: 992px) {
   .pt-64 {
     padding-top: 64px;
   }
+  .my-60 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
+@media screen and (min-width: 1200px) {
+  .my-60 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+.w-24 {
+  width: 24px;
+}
+
 .w-40 {
   width: 40px;
 }
@@ -140,12 +182,24 @@
   width: 115px;
 }
 
+.w-224 {
+  width: 224px;
+}
+
 .h-49 {
   height: 49px;
 }
 
+.h-56 {
+  height: 56px;
+}
+
 .h-713 {
   height: 713px;
+}
+
+.btn-shadow {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.071), 0px 34px 75px 0px rgba(0, 0, 0, 0.071), 0px 137px 137px 0px rgba(0, 0, 0, 0.059), 0px 308px 185px 0px rgba(0, 0, 0, 0.039), 0px 548px 219px 0px rgba(0, 0, 0, 0.012), 0px 856px 240px 0px rgba(0, 0, 0, 0);
 }
 
 * {

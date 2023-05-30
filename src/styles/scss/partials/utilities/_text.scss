@@ -2,12 +2,36 @@
     font-family: $font-circular;
 }
 .font-inter {
-    font-family: $font-inter;
+    font-family: $font-inter !important;
 }
 
 .fs-14 {
     font-size: 14px;
 }
+.fs-18 {
+    font-size: 18px;
+}
 .fs-24 {
     font-size: 24px;
+}
+.fs-69 {
+    font-size: 40px;
+}
+
+
+@media screen and (min-width: 992px) {
+    .fs-69 {
+        font-size: 50px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .fs-69 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .fs-69 {
+        font-size: 69px;
+    }
 }
