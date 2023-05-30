@@ -5,7 +5,7 @@ import Companies from "./components/Companies";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="overflow-hidden">
       <Navbar />
       <Hero />
       <Companies />

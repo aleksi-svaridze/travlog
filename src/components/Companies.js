@@ -4,10 +4,12 @@ import Booking from '../images/companies/booking.svg';
 import Airbnb from '../images/companies/airbnb.svg';
 import Orbitz from '../images/companies/orbitz.svg';
 
+import CompaniesBg from '../images/companies-bg.png';
+
 
 const Companies = () => {
     return(
-        <div className="companies-section py-rs-64">
+        <div className="companies-section py-rs-64 position-relative">
             <div className="container">
                 <div className="row gy-4 justify-content-center justify-content-lg-start">
                     <div className="col">

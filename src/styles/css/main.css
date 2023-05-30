@@ -266,6 +266,15 @@
   border-color: #EEEEEE !important;
 }
 
+.companies-section::after {
+  content: url(../../images/companies-bg.png);
+  position: absolute;
+  right: 0;
+  top: 60%;
+  transform: translateY(-50%);
+  width: 500px;
+}
+
 * {
   font-family: "Circular Std", sans-serif !important;
   font-weight: 700 !important;
