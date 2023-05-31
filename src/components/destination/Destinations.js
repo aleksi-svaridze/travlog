@@ -1,7 +1,17 @@
 import RightArrow from '../../images/icons/arrow-left-white.svg';
 import LeftArrow from '../../images/icons/arrow-left-blue.svg';
+import DestinationCard from './Card';
+
+import img1 from '../../images/destination-1.jpg';
+import img2 from '../../images/destination-2.png';
+import img3 from '../../images/destination-3.jpg';
 
 const Destination = () => {
+    const DestinationCardContent = [
+        {id: 1, src: img1, title: 'Paradise Beach, Bantayan Island', country: 'Rome, Italy', rank: '4.8', price: '$550.16'},
+        {id: 2, src: img2, title: 'Ocean with full of Colors', country: 'Maldives', rank: '4.5', price: '$20.99'},
+        {id: 3, src: img3, title: 'Mountain View, Above the cloud', country: 'United Arab Emeries ', rank: '5.0,', price: '$150.99'},
+    ]
     return (
         <div className="container">
             <div className="row">
@@ -22,6 +32,20 @@ const Destination = () => {
                     </div>
                 </div>
 
+            </div>
+
+            <div className="row py-rs-64 gy-5">
+                {DestinationCardContent.map(content => (
+                    <DestinationCard 
+                        id={content.id} 
+                        src={content.src} 
+                        title={content.title}
+                        country={content.country}
+                        rank={content.rank}
+                        price={content.price} 
+                        cols={'col-12 col-xl-4'} 
+                    />
+                ))}
             </div>
         </div>
     )
