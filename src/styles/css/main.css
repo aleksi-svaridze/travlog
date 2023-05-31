@@ -163,6 +163,15 @@
   margin-bottom: 2rem;
 }
 
+.mt-32 {
+  margin-top: 2rem;
+}
+@media screen and (min-width: 992px) {
+  .mt-32 {
+    margin-top: 0;
+  }
+}
+
 .py-rs-64 {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -194,6 +203,17 @@
   margin-bottom: 25px;
 }
 
+.column-gap-32 {
+  -moz-column-gap: initial;
+       column-gap: initial;
+}
+@media screen and (min-width: 992px) {
+  .column-gap-32 {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .mt-rs-64 {
     margin-top: 4rem;
@@ -210,7 +230,12 @@
   }
 }
 .w-24 {
-  width: 24px;
+  width: 15px;
+}
+@media screen and (min-width: 992px) {
+  .w-24 {
+    width: 24px;
+  }
 }
 
 .w-30 {
@@ -223,6 +248,15 @@
 
 .w-64 {
   width: 64px;
+}
+
+.w-rs-100 {
+  width: 64px !important;
+}
+@media screen and (min-width: 992px) {
+  .w-rs-100 {
+    width: 100px !important;
+  }
 }
 
 .w-115 {
@@ -249,6 +283,15 @@
 
 .w-224 {
   width: 224px;
+}
+
+.h-24 {
+  height: 15px;
+}
+@media screen and (min-width: 992px) {
+  .h-24 {
+    height: 24px;
+  }
 }
 
 .h-32 {
@@ -286,6 +329,15 @@
 @media screen and (min-width: 992px) {
   .h-rs-56 {
     height: 56px;
+  }
+}
+
+.h-rs-100 {
+  height: 64px !important;
+}
+@media screen and (min-width: 992px) {
+  .h-rs-100 {
+    height: 100px !important;
   }
 }
 

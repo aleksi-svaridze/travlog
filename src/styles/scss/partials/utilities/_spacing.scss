@@ -5,6 +5,13 @@
 .mb-32 {
     margin-bottom: 2rem;
 }
+.mt-32 {
+    margin-top: 2rem;
+
+    @media screen and (min-width: 992px) {
+        margin-top: 0;
+    }
+}
 .py-rs-64 {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -33,6 +40,15 @@
 .my-60 {
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+
+.column-gap-32 {
+    column-gap: initial;
+
+    @media screen and (min-width: 992px) {
+        column-gap: 2rem;
+    }
 }
 
 @media screen and (min-width: 992px){
