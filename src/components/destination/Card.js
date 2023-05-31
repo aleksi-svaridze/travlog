@@ -3,7 +3,7 @@ import Star from '../../images/icons/star-orange.svg';
 const DestinationCard = ({id, src, title, country, rank, price, cols}) => {
     return (
         <div className={cols} key={id}>
-            <div className="card border-0 destination-card-shadow" style={{borderRadius: '56px;'}}>
+            <div className="card border-0 destination-card-shadow rounded-5">
                 <img src={src} alt={country} className='card-img-top' />
 
                 <div className="card-body p-2rem">

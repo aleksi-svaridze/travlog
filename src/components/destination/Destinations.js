@@ -2,9 +2,9 @@ import RightArrow from '../../images/icons/arrow-left-white.svg';
 import LeftArrow from '../../images/icons/arrow-left-blue.svg';
 import DestinationCard from './Card';
 
-import img1 from '../../images/destination-1.jpg';
-import img2 from '../../images/destination-2.png';
-import img3 from '../../images/destination-3.jpg';
+import img1 from '../../images/destination/dest-1.png';
+import img2 from '../../images/destination/dest-2.png';
+import img3 from '../../images/destination/dest-3.png';
 
 const Destination = () => {
     const DestinationCardContent = [
