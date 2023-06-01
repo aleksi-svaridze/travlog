@@ -1,22 +1,10 @@
+// ============> Custom Padding Utilities 
 .py-2rem {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
 .p-2rem {
     padding: 2rem;
-}
-.mb-32 {
-    margin-bottom: 2rem;
-}
-.mb-64 {
-    margin-bottom: 64px !important;
-}
-.mt-32 {
-    margin-top: 2rem;
-
-    @media screen and (min-width: 992px) {
-        margin-top: 0;
-    }
 }
 .py-rs-64 {
     padding-top: 32px;
@@ -40,36 +28,69 @@
         }
     }
 }
-.mt-rs-64 {
+
+// ============> Custom Margin Utilities 
+.mb-32 {
+    margin-bottom: 2rem;
+}
+.mb-64 {
+    margin-bottom: 64px !important;
+}
+.mt-64 {
+    @media screen and (max-width: 1199px) {
+        margin-top: 64px;
+    }
+}
+.mt-2rem {
     margin-top: 2rem;
 }
-.my-60 {
+.mt-32 {
+    margin-top: 2rem;
+
+    @media screen and (min-width: 992px) {
+        margin-top: 0;
+    }
+}
+.mt-rs-64 {
+    margin-top: 2rem;
+
+    @media screen and (min-width: 992px){
+        margin-top: 4rem;
+    }
+}
+.my-rs-60 {
     margin-top: 25px;
     margin-bottom: 25px;
+
+    @media screen and (min-width: 992px){
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    @media screen and (min-width: 1200px){
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
 }
 
+// ============> Custom Positioning Utilities 
+.start-n128 {
+    left: -128px;
+}
+.end-rs-n80 {
+    right: -120px;
 
+    @media screen and (min-width: 1400px) {
+        right: -80px;
+    }
+}
+
+// ============> Custom Gap Utilities 
 .column-gap-32 {
     column-gap: initial;
 
     @media screen and (min-width: 992px) {
         column-gap: 2rem;
-    }
-}
-
-@media screen and (min-width: 992px){
-    .mt-rs-64 {
-        margin-top: 4rem;
-    }
-    .my-60 {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .my-60 {
-        margin-top: 60px;
-        margin-bottom: 60px;
     }
 }

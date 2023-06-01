@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Companies from "./components/Companies";
 import Services from "./components/services/Services";
 import Destination from "./components/destination/Destinations";
+import TravelPoint from './components/TravelPoint';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Companies />
       <Services />
       <Destination />
+      <TravelPoint />
     </div>
   );
 }

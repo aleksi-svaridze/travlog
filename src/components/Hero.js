@@ -12,7 +12,7 @@ const Hero = () => {
                             Explore the world 
                             <img src={Case} alt="link Explore the world icon of suitcase" className='w-24' />
                         </a>
-                        <h1 className='text-black fs-69 my-60'>Travel <span className='text-pink'>top destination</span> ot the world</h1>
+                        <h1 className='text-black fs-69 my-rs-60'>Travel <span className='text-pink'>top destination</span> ot the world</h1>
                         <p className='mb-0 text-blue-dark-50 fw-normal fs-18 font-inter'>We always make our customer happy by providing as many choices as possible</p>
 
                         <div className='d-flex flex-column row-gap-4 flex-lg-row align-items-lg-center column-gap-3 mt-5'>

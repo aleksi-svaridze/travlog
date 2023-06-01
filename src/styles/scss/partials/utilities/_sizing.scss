@@ -104,6 +104,15 @@
         height: 600px;
     }
 }
+.h-rs-700 {
+    height: 318px;
+
+    @media screen and (min-width: 992px) {
+        & {
+            height: 700px;
+        }
+    }
+}
 .h-713 {
     height: 713px;
 }
