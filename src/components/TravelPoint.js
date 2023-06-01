@@ -15,26 +15,26 @@ const TravelPoint = () => {
                             <img src={YellowCircle} alt="" className='d-none d-xl-block position-absolute top-0 end-rs-n80' />
                         </p>
 
-                        <div className="row gy-4 mt-rs-64">
-                            <div className="col-12 col-xl-6">
+                        <div className="row mt-5">
+                            <div className="col-12 col-xl-6 mt-4 mt-xl-0">
                                 <div className="border border-blue-dark-10 rounded-5 text-center p-2rem">
                                     <h4 className="mb-4 text-orange fs-2">500+</h4>
                                     <p className="mb-0 text-capitalize text-blue-dark font-inter fs-18 fw-normal">Holiday Package</p>
                                 </div>
                             </div>
-                            <div className="col-12 col-xl-6">
+                            <div className="col-12 col-xl-6 mt-4 mt-xl-0">
                                 <div className="border border-blue-dark-10 rounded-5 text-center p-2rem">
                                     <h4 className="mb-4 text-orange fs-2">100</h4>
                                     <p className="mb-0 text-capitalize text-blue-dark font-inter fs-18 fw-normal">luxury hotel</p>
                                 </div>
                             </div>
-                            <div className="col-12 col-xl-6">
+                            <div className="col-12 col-xl-6 mt-4">
                                 <div className="border border-blue-dark-10 rounded-5 text-center p-2rem">
                                     <h4 className="mb-4 text-orange fs-2">7</h4>
                                     <p className="mb-0 text-capitalize text-blue-dark font-inter fs-18 fw-normal">premium airlines</p>
                                 </div>
                             </div>
-                            <div className="col-12 col-xl-6">
+                            <div className="col-12 col-xl-6 mt-4">
                                 <div className="border border-blue-dark-10 rounded-5 text-center p-2rem">
                                     <h4 className="mb-4 text-orange fs-2">2K+</h4>
                                     <p className="mb-0 text-capitalize text-blue-dark font-inter fs-18 fw-normal">happy customer</p>

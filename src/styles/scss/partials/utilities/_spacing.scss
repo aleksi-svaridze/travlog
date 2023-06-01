@@ -87,10 +87,17 @@
 }
 
 // ============> Custom Gap Utilities 
-.column-gap-32 {
+.column-gap-lg-32 {
     column-gap: initial;
 
     @media screen and (min-width: 992px) {
         column-gap: 2rem;
+    }
+}
+.row-gap-32 {
+    row-gap: initial;
+
+    @media screen and (max-width: 991px) {
+        row-gap: 2rem;
     }
 }

@@ -4,6 +4,7 @@ import Companies from "./components/Companies";
 import Services from "./components/services/Services";
 import Destination from "./components/destination/Destinations";
 import TravelPoint from './components/TravelPoint';
+import KeyFeatures from "./components/keyFeatures/KeyFeatures";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Services />
       <Destination />
       <TravelPoint />
+      <KeyFeatures />
     </div>
   );
 }
