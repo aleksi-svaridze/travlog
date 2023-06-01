@@ -5,6 +5,7 @@ import Services from "./components/services/Services";
 import Destination from "./components/destination/Destinations";
 import TravelPoint from './components/TravelPoint';
 import KeyFeatures from "./components/keyFeatures/KeyFeatures";
+import Testimonials from "./components/Testimonials";
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Destination />
       <TravelPoint />
       <KeyFeatures />
+      <Testimonials />
     </div>
   );
 }

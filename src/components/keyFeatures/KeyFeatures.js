@@ -9,7 +9,7 @@ const KeyFeatures = () => {
     const KeyFeaturesCardContent = [
         {id: 1, src: location, bg: 'bg-orange', title: 'We offer best services', desc: 'Lorem Ipsum is not simply random text'},
         {id: 2, src: agenda, bg: 'bg-yellow', title: 'Schedule your trip', desc: 'It has roots in a piece of classical'},
-        {id: 3, src: ticket, bg: 'bg-purple', title: 'Get discounted coupons', desc: 'Lorem Ipsum is not simply random text'}
+        {id: 3, src: ticket, bg: 'bg-pink', title: 'Get discounted coupons', desc: 'Lorem Ipsum is not simply random text'}
     ]
     return(
         <div className="container py-rs-64"> 

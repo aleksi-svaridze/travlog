@@ -8,6 +8,9 @@
 .w-30 {
     width: 30px;
 }
+.w-32 {
+    width: 32px;
+}
 .w-40 {
     width: 40px;
 }
@@ -16,6 +19,13 @@
 }
 .w-64 {
     width: 64px;
+}
+.w-rs-75 {
+    width: 100%;
+
+    @media screen and (min-width: 992px) {
+        width: 75%;
+    }
 }
 .w-100px {
     width: 100px;
@@ -29,6 +39,9 @@
 }
 .w-115 {
     width: 115px;
+}
+.w-128 {
+    width: 128px !important;
 }
 .w-141 {
     width: 100%;
@@ -89,6 +102,9 @@
 }
 .h-100px {
     height: 100px;
+}
+.h-128 {
+    height: 128px !important;
 }
 .h-rs-56 {
     height: 72px;
