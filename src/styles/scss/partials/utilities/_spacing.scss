@@ -11,10 +11,17 @@
     padding-bottom: 32px;
 
     @media screen and (min-width: 992px) {
-        & {
-            padding-top: 64px;
-            padding-bottom: 64px;
-        }
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+.py-rs-128 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    @media screen and (min-width: 992px) {
+        padding-top: 128px;
+        padding-bottom: 128px;
     }
 }
 .px-rs-64 {
@@ -103,7 +110,11 @@
     }
 
 }
-
+@media screen and (min-width: 992px) {
+    .mt-lg-177 {
+        margin-top: 177px;
+    }
+}
 // ============> Custom Positioning Utilities 
 .start-n128 {
     left: -128px;

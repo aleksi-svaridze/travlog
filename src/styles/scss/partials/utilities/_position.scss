@@ -1,8 +1,8 @@
-.top-lg-50 {
+.top-lg-43 {
     top: initial;
 
     @media screen and (min-width: 992px){
-        top: 50%;
+        top: 43%;
     }
 }
 .bottom-lg-n128 {
@@ -12,10 +12,12 @@
         bottom: initial;
     }
 }
-.translate-middle-lg-y {
-    transform: translateY(0);
-
-    @media screen and (min-width: 992px){
-        transform: translateY(-50%);
-    }
+.start-n35 {
+    left: -35px;
+}
+.top-n54 {
+    top: -54%;
+}
+.top-n67 {
+    top: -67px;
 }

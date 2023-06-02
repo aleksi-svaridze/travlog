@@ -6,6 +6,7 @@ import Destination from "./components/destination/Destinations";
 import TravelPoint from './components/TravelPoint';
 import KeyFeatures from "./components/keyFeatures/KeyFeatures";
 import Testimonials from "./components/Testimonials";
+import Newsletter from "./components/Newsletter";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <TravelPoint />
       <KeyFeatures />
       <Testimonials />
+      <Newsletter />
     </div>
   );
 }

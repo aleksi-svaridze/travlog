@@ -18,8 +18,19 @@
 .fs-24 {
     font-size: 24px;
 }
+@media screen and (max-width: 991px) {
+    .fs-32 {
+        font-size: 2rem;
+    }
+}
 .fs-44 {
     font-size: 32px;
+}
+
+@media screen and (min-width: 992px) {
+    .fs-lg-55 {
+        font-size: 55px;
+    }
 }
 .fs-69 {
     font-size: 40px;
