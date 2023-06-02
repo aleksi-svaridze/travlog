@@ -573,6 +573,10 @@
   }
 }
 
+.bottom-n222 {
+  bottom: -222px;
+}
+
 .start-n35 {
   left: -35px;
 }
@@ -583,6 +587,10 @@
 
 .top-n67 {
   top: -67px;
+}
+
+.end-n348 {
+  right: -348px;
 }
 
 .services-card {
