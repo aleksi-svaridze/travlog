@@ -11,7 +11,7 @@ const TravelPoint = () => {
                     <div className="d-flex flex-column justify-content-center h-100 ps-0 ps-xl-4 ps-xxl-5">
                         <p className="text-pink text-uppercase fs-4 mb-4 text-center text-xl-start" style={{letterSpacing: '.2em'}}>Travel Point</p>
                         <h2 className="text-blue fs-44 text-center text-xl-start mb-0">We helping you find your dream location</h2>
-                        <p className="position-relative font-inter fw-normal fs-18 text-blue-dark-50 mt-2rem mb-0 text-center text-xl-start">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
+                        <p className="position-relative font-inter fw-normal fs-18 text-blue-dark-50 mt-32 mb-0 text-center text-xl-start">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
                             <img src={YellowCircle} alt="" className='d-none d-xl-block position-absolute top-0 end-rs-n80' />
                         </p>
 

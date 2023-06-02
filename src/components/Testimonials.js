@@ -18,7 +18,7 @@ const Testimonials = () => {
                         <span className='text-orange fs-3'>Mark Smith&nbsp;</span>
                         <span className='text-blue-dark-75 fs-4'>/&nbsp;travel enthusiast</span>
                     </p>
-                    <div className='d-flex align-items-center column-gap-3 mt-2rem'>
+                    <div className='d-flex align-items-center column-gap-3 mt-32'>
                         <img src={YellowStar} alt="" className='w-32 h-32' />
                         <img src={YellowStar} alt="" className='w-32 h-32' />
                         <img src={YellowStar} alt="" className='w-32 h-32' />

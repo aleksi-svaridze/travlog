@@ -7,6 +7,7 @@ import TravelPoint from './components/TravelPoint';
 import KeyFeatures from "./components/keyFeatures/KeyFeatures";
 import Testimonials from "./components/Testimonials";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <KeyFeatures />
       <Testimonials />
       <Newsletter />
+      <Footer />
     </div>
   );
 }

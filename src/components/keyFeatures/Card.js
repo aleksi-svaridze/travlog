@@ -8,7 +8,7 @@ const KeyFeaturesCard = ({id, src, bg, title, desc}) => {
         border = '';
     }
     return(
-        <div key={id} className={`d-flex flex-column row-gap-32  flex-lg-row column-gap-lg-32 align-items-lg-center rounded-5 p-2rem ${border}`}>
+        <div key={id} className={`d-flex flex-column row-gap-lg-32  flex-lg-row column-gap-lg-32 align-items-lg-center rounded-5 p-2rem ${border}`}>
             <div className={`${bg} w-100px h-100px rounded-5 d-flex align-items-center justify-content-center`}>
                 <img src={src} alt={title} className='w-48 h-48' />
             </div>

@@ -22,7 +22,7 @@ const Destination = () => {
                 </div>
 
                 <div className="col-12 col-lg-5">
-                    <div className="d-flex align-items-center column-gap-lg-32 justify-content-between justify-content-lg-end mt-lg-0 mt-32">
+                    <div className="d-flex align-items-center column-gap-lg-32 justify-content-between justify-content-lg-end mt-lg-0 mt-md-32">
                         <div className="rounded-circle bg-white h-rs-100 w-rs-100 d-flex align-items-center justify-content-center border border-blue-dark-10">
                             <img src={LeftArrow} alt="Left arrow" className='w-24 h-24' />
                         </div>

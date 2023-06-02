@@ -1,0 +1,27 @@
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+    content: "";
+    background-image: url(../../images/icons/arrow-circle-down.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    transition: initial;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../images/icons/arrow-circle-down.svg);
+    transform: initial;
+}
+.accordion-button:not(.collapsed) {
+    color: initial;
+    background-color: initial;
+    box-shadow: initial;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
