@@ -1,0 +1,21 @@
+.top-lg-50 {
+    top: initial;
+
+    @media screen and (min-width: 992px){
+        top: 50%;
+    }
+}
+.bottom-lg-n128 {
+    bottom: -128px;
+
+    @media screen and (min-width: 992px){
+        bottom: initial;
+    }
+}
+.translate-middle-lg-y {
+    transform: translateY(0);
+
+    @media screen and (min-width: 992px){
+        transform: translateY(-50%);
+    }
+}

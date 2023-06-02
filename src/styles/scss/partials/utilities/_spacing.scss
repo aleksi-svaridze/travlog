@@ -36,7 +36,14 @@
 .mb-64 {
     margin-bottom: 64px !important;
 }
-.mb-rs-64 {
+.mb-rs-128 {
+    margin-bottom: 12rem;
+
+    @media screen and (min-width: 992px) {
+        margin-bottom: 4rem;
+    }
+}
+.my-rs-56 {
     margin-bottom: 64px;
 
     @media screen and (min-width: 992px) {
