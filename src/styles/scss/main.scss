@@ -18,3 +18,7 @@
     font-family: $font-circular !important;
     font-weight: 700 !important;
 }
+::placeholder {
+    text-transform: capitalize;
+    color: $color-blue-dark-75;
+}

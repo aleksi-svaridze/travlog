@@ -8,6 +8,11 @@ const Newsletter = () => {
             <img src={WaveLines} alt="" className='position-absolute end-n348 bottom-n222 d-none d-lg-block' />
              <p className="text-pink text-uppercase fs-4 mb-32 text-center" style={{letterSpacing: '.2em'}}>subscribe to our newsletter</p>
             <h2 className="text-blue fs-lg-55 fs-32 text-center mb-64">Prepare yourself & let's explore the beauty of the world</h2>
+
+            <form className='d-flex flex-column row-gap-32 flex-lg-row column-gap-lg-64 justify-content-lg-between'>
+                <input type="text" className="form-control fs-lg-24 fs-sm-14 text-blue-dark-75 rounded-lg-32 rounded-16 h-67 h-lg-96 p-4 p-lg-32" placeholder="your email" />
+                <button className='btn text-capitalize fs-lg-24 h-67 h-lg-96 w-lg-235 bg-purple rounded-lg-32 rounded-16 border-0 text-white'>subscribe</button>
+            </form>
         </div>
     )
 }

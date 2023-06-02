@@ -1,3 +1,4 @@
+// ======================> Width Utilities
 .w-24 {
     width: 15px;
 
@@ -67,7 +68,14 @@
 .w-184 {
     width: 184px;
 } 
+.w-lg-235 {
+    width: 100%;
 
+    @media screen and (min-width: 992px){
+        width: 235px;
+    }
+}
+// ======================> Height Utilities
 .h-176 {
     height: 176px;
 }
@@ -96,7 +104,6 @@
         }
     }
 }
-
 .h-30 {
     height: 30px;
 }
@@ -105,6 +112,16 @@
 }
 .h-56 {
     height: 56px;
+}
+@media screen and (max-width: 991px){
+    .h-67 {
+        height: 67px;
+    }
+}
+@media screen and (min-width: 992px){
+    .h-lg-96 {
+        height: 96px;
+    }
 }
 .h-100px {
     height: 100px;

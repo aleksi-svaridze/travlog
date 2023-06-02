@@ -35,6 +35,11 @@
         }
     }
 }
+@media screen and (min-width: 992px) {
+    .p-lg-32 {
+        padding: 2rem;
+    }
+}
 
 // ============> Custom Margin Utilities 
 .mb-32 {
@@ -133,6 +138,13 @@
 
     @media screen and (min-width: 992px) {
         column-gap: 2rem;
+    }
+}
+.column-gap-lg-64 {
+    column-gap: initial;
+
+    @media screen and (min-width: 992px) {
+        column-gap: 4rem;
     }
 }
 .row-gap-32 {

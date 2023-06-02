@@ -4,3 +4,15 @@
 .border-blue-dark-10 {
     border-color: $color-blue-dark-10 !important;
 }
+
+// =======================> Border Radius
+@media screen and (min-width: 992px) {
+    .rounded-lg-32 {
+        border-radius: 2rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .rounded-16 {
+        border-radius: 1rem;
+    }
+}
