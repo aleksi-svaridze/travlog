@@ -22,3 +22,8 @@
     text-transform: capitalize;
     color: $color-blue-dark-75;
 }
+.form-control {
+    background-image: url(../../images/icons/envelope.svg);
+    background-repeat: no-repeat;
+    background-position: 32px center;
+}

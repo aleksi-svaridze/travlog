@@ -35,6 +35,13 @@
         }
     }
 }
+.ps-rs-72 {
+    padding-left: 72px !important;
+
+    @media screen and (min-width: 992px) {
+        padding-left: 80px !important;
+    }
+}
 @media screen and (min-width: 992px) {
     .p-lg-32 {
         padding: 2rem;
@@ -47,6 +54,13 @@
 }
 .mb-64 {
     margin-bottom: 64px !important;
+}
+.mb-rs-64 {
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: 992px) {
+        margin-bottom: 4rem;
+    }
 }
 .mb-rs-128 {
     margin-bottom: 12rem;

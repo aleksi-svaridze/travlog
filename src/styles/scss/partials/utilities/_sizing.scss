@@ -167,3 +167,11 @@
 .h-713 {
     height: 713px;
 }
+
+// ===============> Background Size
+.bs-rs-32 {
+    background-size: 24px;
+    @media screen and (min-width: 992px){
+        background-size: 32px;
+    }
+}

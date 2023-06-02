@@ -228,6 +228,15 @@
   }
 }
 
+.ps-rs-72 {
+  padding-left: 72px !important;
+}
+@media screen and (min-width: 992px) {
+  .ps-rs-72 {
+    padding-left: 80px !important;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .p-lg-32 {
     padding: 2rem;
@@ -239,6 +248,15 @@
 
 .mb-64 {
   margin-bottom: 64px !important;
+}
+
+.mb-rs-64 {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 992px) {
+  .mb-rs-64 {
+    margin-bottom: 4rem;
+  }
 }
 
 .mb-rs-128 {
@@ -576,6 +594,15 @@
   height: 713px;
 }
 
+.bs-rs-32 {
+  background-size: 24px;
+}
+@media screen and (min-width: 992px) {
+  .bs-rs-32 {
+    background-size: 32px;
+  }
+}
+
 .btn-shadow {
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.071), 0px 34px 75px 0px rgba(0, 0, 0, 0.071), 0px 137px 137px 0px rgba(0, 0, 0, 0.059), 0px 308px 185px 0px rgba(0, 0, 0, 0.039), 0px 548px 219px 0px rgba(0, 0, 0, 0.012), 0px 856px 240px 0px rgba(0, 0, 0, 0);
 }
@@ -848,4 +875,10 @@
 ::placeholder {
   text-transform: capitalize;
   color: rgba(25, 24, 37, 0.75);
+}
+
+.form-control {
+  background-image: url(../../images/icons/envelope.svg);
+  background-repeat: no-repeat;
+  background-position: 32px center;
 }/*# sourceMappingURL=main.css.map */
