@@ -43,7 +43,7 @@ const Destination = () => {
                         country={content.country}
                         rank={content.rank}
                         price={content.price} 
-                        cols={'col-lg-6 col-xl-4'} 
+                        cols={'col-12 col-lg-4'} 
                     />
                 ))}
             </div>

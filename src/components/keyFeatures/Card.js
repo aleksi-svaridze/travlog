@@ -14,7 +14,7 @@ const KeyFeaturesCard = ({id, src, bg, title, desc}) => {
             </div>
 
             <div>
-                <h5 className='text-blue-dark fs-4'>{title}</h5>
+                <h5 className='text-blue-dark fs-23'>{title}</h5>
                 <p className='text-blue-dark-50 fs-18 fw-normal font-inter mb-0'>{desc}</p>
             </div>
         </div>
