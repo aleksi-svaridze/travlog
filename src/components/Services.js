@@ -47,7 +47,8 @@ const Services = () => {
                                     align-items-center  
                                     text-center
                                     p-rs-64
-                                    w-rs-350" 
+                                    w-rs-350
+                                    shadow-sm" 
                                     >
                         <img src={Booking} alt='Booking' className='w-64' />
                         <h3 className='mb-2rem mt-rs-4rem text-capitalize'>easy booking</h3>
