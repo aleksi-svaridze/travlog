@@ -1,4 +1,11 @@
 // ============> Custom Padding Utilities 
+.p-rs-64 {
+    padding: 2rem;
+
+    @media screen and (min-width: 992px) {
+        padding: 4rem;
+    }
+}
 .py-2rem {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -72,6 +79,13 @@
 @media screen and (min-width: 992px) {
     .mb-lg-4rem {
         margin-bottom: 4rem;    
+    }
+}
+.mb-rs-2rem {
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: 992px) {
+        margin-bottom: initial;
     }
 }
 .mb-rs-43 {

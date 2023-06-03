@@ -11,7 +11,7 @@ const Companies = () => {
     return(
         <div className="py-rs-64">
             <div className="container position-relative">
-                <img src={companiesBg} alt="" className='d-none d-lg-block position-absolute end-n50 top-50 translate-middle-y' />
+                <img src={companiesBg} alt="" className='d-none d-lg-block position-absolute z-n1 end-n50 top-50 translate-middle-y' />
                 <div className="row row-gap-2rem justify-content-center justify-content-lg-start">
                     <div className="col">
                         <div className='text-center text-lg-start'>

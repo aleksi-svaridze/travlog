@@ -1,13 +1,13 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Companies from "./components/Companies";
-import Services from "./components/services/Services";
+import Services from "./components/Services";
 import Destination from "./components/destination/Destinations";
 import TravelPoint from './components/TravelPoint';
 import KeyFeatures from "./components/keyFeatures/KeyFeatures";
 import Testimonials from "./components/Testimonials";
 import Newsletter from "./components/Newsletter";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer"; 
 
 
 const App = () => {
