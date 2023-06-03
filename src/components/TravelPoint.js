@@ -1,11 +1,12 @@
 import YellowCircle from '../images/yellow-circle.png';
+import travelPointBg from '../images/location-bg.png';
 
 const TravelPoint = () => {
     return(
         <div className="container py-rs-64">
             <div className="row row-gap-xl-4rem">
                 <div className="col-12 col-xl-7">
-                    <div className='travelPointBg'></div>
+                    <img src={travelPointBg} alt="" className='h-rs-697 w-xl-auto ms-rs-n128' />
                 </div>
                 <div className="col-12 col-xl-5">
                     <div className="d-flex flex-column justify-content-center h-100 ps-0 ps-xl-4 ps-xxl-5">

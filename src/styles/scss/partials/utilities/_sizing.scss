@@ -64,7 +64,14 @@
         width: 75%;
     }
 }
-.w-rs-100 {
+.w-xl-auto {
+    width: 100%;
+
+    @media screen and (min-width: 1200px) {
+        width: auto;
+    }
+}
+.w-lg-100 {
     width: 64px !important;
 
     @media screen and (min-width: 992px) {
@@ -119,8 +126,10 @@
 .h-713 {
     height: 713px;
 }
-@media screen and (min-width: 992px){
-    .h-lg-96 {
+.h-lg-96 {
+    height: initial;
+
+    @media screen and (min-width: 992px) {
         height: 96px;
     }
 }
@@ -168,18 +177,10 @@
         height: 600px;
     }
 }
-.h-rs-700 {
-    height: 318px;
+.h-rs-697 {
+    height: auto;
 
-    @media screen and (min-width: 992px) {
-        height: 700px;
-    }
-}
-
-// ===============> Background Size
-.bs-rs-32 {
-    background-size: 24px;
-    @media screen and (min-width: 992px){
-        background-size: 32px;
+    @media screen and (min-width: 1200px) {
+        height: 697px;
     }
 }

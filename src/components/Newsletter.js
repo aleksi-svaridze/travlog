@@ -11,7 +11,7 @@ const Newsletter = () => {
                 <h2 className="text-blue fs-rs-55 text-center mb-4rem">Prepare yourself & let's explore the beauty of the world</h2>
 
                 <form className='d-flex flex-column row-gap-lg-2rem flex-lg-row column-gap-lg-4rem justify-content-lg-between'>
-                    <input type="text" className="form-control ps-rs-72 bs-rs-32 fs-lg-24 fs-sm-14 text-blue-dark-75 rounded-rs-2rem h-rs-67 h-lg-96 p-4 p-lg-32 border-0" placeholder="your email" />
+                    <input type="text" className="form-control ps-rs-72 fs-lg-24 fs-sm-14 text-blue-dark-75 rounded-rs-2rem h-rs-67 h-lg-96 p-4 p-lg-32 border-0" placeholder="your email" />
                     <button className='btn text-capitalize fs-lg-24 h-rs-67 h-lg-96 w-lg-235 bg-purple rounded-rs-2rem border-0 text-white'>subscribe</button>
                 </form>
             </div>

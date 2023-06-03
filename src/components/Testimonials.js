@@ -34,10 +34,10 @@ const Testimonials = () => {
                     </div>
                 </div>
                 <div className='position-absolute start-0 top-lg-43 w-100 bottom-lg-n128 d-flex justify-content-between'>
-                    <div className="rounded-circle bg-white h-rs-100 w-rs-100 d-flex align-items-center justify-content-center border border-blue-dark-10 ms-2 ms-lg-0">
+                    <div className="rounded-circle bg-white h-rs-100 w-lg-100 d-flex align-items-center justify-content-center border border-blue-dark-10 ms-2 ms-lg-0">
                         <img src={LeftArrow} alt="Left arrow" className='w-rs-24 h-rs-24' />
                     </div>
-                    <div className="rounded-circle bg-purple h-rs-100 w-rs-100 d-flex align-items-center justify-content-center me-2 me-lg-0">
+                    <div className="rounded-circle bg-purple h-rs-100 w-lg-100 d-flex align-items-center justify-content-center me-2 me-lg-0">
                         <img src={RightArrow} alt="Right arrow" className='w-rs-24 h-rs-24' />
                     </div>
                 </div>

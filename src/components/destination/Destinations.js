@@ -23,10 +23,10 @@ const Destination = () => {
 
                 <div className="col-lg-12 col-xl-5 mt-lg-0 mt-md-2rem">
                     <div className="d-flex align-items-center column-gap-lg-2rem justify-content-between justify-content-xl-end">
-                        <div className="rounded-circle bg-white h-rs-100 w-rs-100 d-flex align-items-center justify-content-center border border-blue-dark-10">
+                        <div className="rounded-circle bg-white h-rs-100 w-lg-100 d-flex align-items-center justify-content-center border border-blue-dark-10">
                             <img src={LeftArrow} alt="Left arrow" className='w-rs-24 h-rs-24' />
                         </div>
-                        <div className="rounded-circle bg-purple h-rs-100 w-rs-100 d-flex align-items-center justify-content-center">
+                        <div className="rounded-circle bg-purple h-rs-100 w-lg-100 d-flex align-items-center justify-content-center">
                             <img src={RightArrow} alt="Right arrow" className='w-rs-24 h-rs-24' />
                         </div>
                     </div>
