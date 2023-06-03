@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg py-2rem">
             <div className="container">
                 <a className="navbar-brand me-0 column-gap-3 py-0 fw-bolder text-capitalize d-flex align-items-center text-blue-dark fs-24" href="/">
-                    <img src={Logo} alt="Travlog logo" className='w-40' />
+                    <img src={Logo} alt="Travlog logo" className='w-40 h-40' />
                     travlog
                 </a>
 

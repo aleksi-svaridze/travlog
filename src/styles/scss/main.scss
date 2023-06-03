@@ -14,19 +14,9 @@
 @import './partials/components/form';
 @import './partials//components/navbar';
 
-@import './partials/layout/companies-section';
 @import './partials/layout/travelPoint-section';
 
 * {
     font-family: $font-circular !important;
     font-weight: 700 !important;
-}
-::placeholder {
-    text-transform: capitalize;
-    color: $color-blue-dark-75;
-}
-.form-control {
-    background-image: url(../../images/icons/envelope.svg);
-    background-repeat: no-repeat;
-    background-position: 32px center;
 }

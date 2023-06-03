@@ -15,11 +15,11 @@ const KeyFeatures = () => {
         <div className="container py-rs-64"> 
             <div className="row">
                 <div className="col-12 col-xl-6 order-2 order-xl-1">
-                    <div className="mt-64">
-                        <p className="text-pink text-uppercase fs-4 mb-4 text-center text-xl-start" style={{letterSpacing: '.2em'}}>Key features</p>
-                        <h2 className="text-blue fs-44 text-center text-xl-start mb-0">We offer best services</h2>
-                        <p className="font-inter fw-normal fs-18 text-blue-dark-50 mt-32 mb-0 text-center text-xl-start">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
-                        <div className="mt-rs-64">
+                    <div className="mt-4rem">
+                        <p className="text-pink text-uppercase fs-rs-23 mb-3 text-center text-xl-start" style={{letterSpacing: '.2em'}}>Key features</p>
+                        <h2 className="text-blue fs-rs-44 text-center text-xl-start mb-0">We offer best services</h2>
+                        <p className="font-inter fw-normal fs-18 text-blue-dark-50 mt-2rem mb-0 text-center text-xl-start">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+                        <div className="mt-rs-4rem">
                             {
                                 KeyFeaturesCardContent.map(content => (
                                     <KeyFeaturesCard 

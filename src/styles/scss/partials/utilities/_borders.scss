@@ -1,18 +1,15 @@
+// ======================> Border Colours
 .border-gray {
     border-color: $color-gray !important;
 }
 .border-blue-dark-10 {
     border-color: $color-blue-dark-10 !important;
 }
-
 // =======================> Border Radius
-@media screen and (min-width: 992px) {
-    .rounded-lg-32 {
-        border-radius: 2rem;
-    }
-}
-@media screen and (max-width: 991px) {
-    .rounded-16 {
-        border-radius: 1rem;
+.rounded-rs-2rem {
+    border-radius: 1rem !important;
+
+    @media screen and (min-width: 992px) {
+        border-radius: 2rem !important;
     }
 }

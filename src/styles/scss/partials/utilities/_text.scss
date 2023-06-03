@@ -1,76 +1,91 @@
 .font-circular {
-    font-family: $font-circular;
+    font-family: $font-circular !important;
 }
 .font-inter {
     font-family: $font-inter !important;
 }
 
 .fw-450 {
-    font-weight: $fw-450 !important;
+    font-weight: 450 !important;
 }
 
 .fs-14 {
     font-size: 14px;
 }
-@media screen and (max-width: 991px) {
-    .fs-sm-14 {
-        font-size: 14px;
+.fs-sm-14 {
+    font-size: 14px;
+
+    @media screen and (min-width: 992px) {
+        font-size: initial;
     }
 }
+
 .fs-18 {
     font-size: 18px;
 }
 .fs-24 {
     font-size: 24px;
 }
-@media screen and (min-width: 992px) {
-    .fs-lg-24 {
+.fs-32 {
+    font-size: 2rem;
+
+    @media screen and (min-width: 992px) {
+        font-size: initial;
+    }
+}
+
+.fs-rs-18 {
+    font-size: 16px;
+
+    @media screen and (min-width: 992px) {
+        font-size: 18px;
+    }
+}
+.fs-rs-23 {
+    font-size: 16px;
+
+    @media screen and (min-width: 992px) {
+        font-size: 23px;
+    }
+}
+.fs-rs-44 {
+    font-size: 32px;
+
+    @media screen and (min-width: 992px) {
+        font-size: 35px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 40px;
+    }
+    @media screen and (min-width: 1400px) {
+        font-size: 44px;
+    }
+}
+.fs-rs-69 {
+    font-size: 40px;
+
+    @media screen and (min-width: 992px) {
+        font-size: 50px;
+    }
+    @media screen and (min-width: 1200px) {
+        font-size: 60px;
+    }
+    @media screen and (min-width: 1400px) {
+        font-size: 69px;
+    }
+}
+
+.fs-lg-24 {
+    font-size: initial;
+
+    @media screen and (min-width: 992px) {
         font-size: 24px;
     }
 }
-@media screen and (max-width: 991px) {
-    .fs-32 {
-        font-size: 2rem;
-    }
-}
-.fs-44 {
+.fs-rs-55 {
     font-size: 32px;
-}
 
-@media screen and (min-width: 992px) {
-    .fs-lg-55 {
+    @media screen and (min-width: 992px) {
         font-size: 55px;
     }
-}
-.fs-69 {
-    font-size: 40px;
-}
-
-
-@media screen and (min-width: 992px) {
-    .fs-69 {
-        font-size: 50px;
-    }
-    .fs-44 {
-        font-size: 35px;
-    }
-}
-@media screen and (min-width: 1200px) {
-    .fs-69 {
-        font-size: 60px;
-    }
-    .fs-44 {
-        font-size: 40px;
-    }
-
-}
-
-@media screen and (min-width: 1400px) {
-    .fs-69 {
-        font-size: 69px;
-    }
-    .fs-44 {
-        font-size: 44px;
-    }
-
 }

@@ -104,24 +104,24 @@
     overflow: hidden;
 
     @media screen and (min-width: 992px) {
-        & {
+        // & {
             display: block;
             width: 860px;
             height: 500px;
-        }
+        // }
     }
 
     @media screen and (min-width: 1200px) {
-        & {
+        // & {
             width: 860px;
             height: 500px;
-        }
+        // }
     }
     @media screen and (min-width: 1400px) {
-        & {
+        // & {
             width: 925px;
             height: 600px;
-        }
+        // }
     }
 }
 

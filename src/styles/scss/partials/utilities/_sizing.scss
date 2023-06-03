@@ -1,10 +1,6 @@
 // ======================> Width Utilities
 .w-24 {
-    width: 15px;
-
-    @media screen and (min-width: 992px) {
-        width: 24px;
-    }
+    width: 24px;
 }
 .w-30 {
     width: 30px;
@@ -21,22 +17,8 @@
 .w-64 {
     width: 64px;
 }
-.w-rs-75 {
-    width: 100%;
-
-    @media screen and (min-width: 992px) {
-        width: 75%;
-    }
-}
 .w-100px {
     width: 100px;
-}
-.w-rs-100 {
-    width: 64px !important;
-
-    @media screen and (min-width: 992px) {
-        width: 100px !important;
-    }
 }
 .w-115 {
     width: 115px;
@@ -62,12 +44,33 @@
         }
     }
 }
-.w-224 {
-    width: 224px;
-}
 .w-184 {
     width: 184px;
 } 
+.w-224 {
+    width: 224px;
+}
+.w-rs-24 {
+    width: 15px;
+
+    @media screen and (min-width: 992px) {
+        width: 24px;
+    }
+}
+.w-rs-75 {
+    width: 100%;
+
+    @media screen and (min-width: 992px) {
+        width: 75%;
+    }
+}
+.w-rs-100 {
+    width: 64px !important;
+
+    @media screen and (min-width: 992px) {
+        width: 100px !important;
+    }
+}
 .w-lg-235 {
     width: 100%;
 
@@ -76,66 +79,77 @@
     }
 }
 // ======================> Height Utilities
-.h-176 {
-    height: 176px;
-}
 .h-24 {
-    height: 15px;
-
-    @media screen and (min-width: 992px) {
-        height: 24px;
-    }
-}
-.h-32 {
-    height: 32px;
-}
-.h-49 {
-    height: 49px;
-}
-.h-48 {
-    height: 48px;
-}
-.h-rs-49 {
-    height: 65px;
-    
-    @media screen and (min-width: 992px) {
-        & {
-            height: 49px;
-        }
-    }
+    height: 24px;
 }
 .h-30 {
     height: 30px;
 }
+.h-32 {
+    height: 32px;
+}
 .h-40 {
     height: 40px;
+}
+.h-48 {
+    height: 48px;
+}
+.h-49 {
+    height: 49px;
 }
 .h-56 {
     height: 56px;
 }
-@media screen and (max-width: 991px){
-    .h-67 {
-        height: 67px;
+.h-100px {
+    height: 100px;
+}
+.h-rs-32 {
+    height: 20px;
+
+    @media screen and (min-width: 992px) {
+        height: 32px;
     }
+}
+.h-128 {
+    height: 128px !important;
+}
+.h-176 {
+    height: 176px;
+}
+.h-713 {
+    height: 713px;
 }
 @media screen and (min-width: 992px){
     .h-lg-96 {
         height: 96px;
     }
 }
-.h-100px {
-    height: 100px;
+.h-rs-24 {
+    height: 15px;
+
+    @media screen and (min-width: 992px) {
+        height: 24px;
+    }
 }
-.h-128 {
-    height: 128px !important;
+.h-rs-49 {
+    height: 65px;
+    
+    @media screen and (min-width: 992px) {
+        height: 49px;
+    }
 }
 .h-rs-56 {
     height: 72px;
 
     @media screen and (min-width: 992px) {
-        & {
-            height: 56px;
-        }
+        height: 56px;
+    }
+}
+.h-rs-67 {
+    height: 67px;
+
+    @media screen and (min-width: 992px){
+        height: initial;
     }
 }
 .h-rs-100 {
@@ -150,7 +164,6 @@
     @media screen and (min-width: 992px) {
         height: 500px;
     }
-
     @media screen and (min-width: 1400px) {
         height: 600px;
     }
@@ -159,13 +172,8 @@
     height: 318px;
 
     @media screen and (min-width: 992px) {
-        & {
-            height: 700px;
-        }
+        height: 700px;
     }
-}
-.h-713 {
-    height: 713px;
 }
 
 // ===============> Background Size
